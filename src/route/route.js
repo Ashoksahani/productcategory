@@ -15,7 +15,7 @@ router.put('/updatedproduct/:productid',controller.updateproduct)
 router.delete('/deleteproduct/:productid',controller.deletedproduct)
 
 router.post('/createcategories',categories.create)
-router.get('/getcategories/:categoryid',categories.getcategry)
+router.get('/getcategories',categories.getcategry)
 router.put('/updatecategories',categories.updatecategory)
 router.delete('/deletecategories/:categoryid',categories.deletedproduct)
 
